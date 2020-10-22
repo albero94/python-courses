@@ -1,0 +1,3 @@
+hw,deadline,files_to_copy,files_should_exist
+4,01/19/20,sh.c,gwthd.h
+,,runtest.sh,
