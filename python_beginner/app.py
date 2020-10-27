@@ -175,8 +175,8 @@ month_conversions = {
     5: "May"
 }
 print(month_conversions)
-print(month_conversions["Jan"])
-print(month_conversions[4])
+print(month_conversions["Jan"])                     # throws exception if key not found
+print(month_conversions[4])                         
 print(month_conversions.get("Dec", "Default"))      # falls back to default if key not found
 
 

@@ -1,9 +1,24 @@
+from polls.models import Question
 from django.http import HttpResponse
 from django.http import HttpRequest
+from django.http import Http404
+from django.shortcuts import get_object_or_404, render
 
 def index(request:HttpRequest):
-    return HttpResponse(f"Hello world! You are at the polls index. {request.GET['name']}")
+    latest_question_list = Question.objects.order_by('-pub_date')[:5]
+    context = {'latest_question_list': latest_question_list}
+    return render(request, 'polls/index.html', context)
 
 
-def test(request):
-    return HttpResponse("Hello world! You are at the polls test.")
+def detail(request, question_id):
+    # shortcut to avoid try/catch if question not found
+    question = get_object_or_404(Question, pk=question_id)         
+    return render(request, 'polls/detail.html', {'question': question})
+
+
+def results(request, question_id):
+    return HttpResponse(f"You're looking at the results of question {question_id}.")
+
+
+def vote(request, question_id):
+    return HttpResponse(f"You're voting on question {question_id}.")
