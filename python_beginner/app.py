@@ -50,7 +50,8 @@ print(course.replace("for", "4"))
 
 # COMPARISON OPERATORS
 # > < >= <= == != 
-
+# You can concatanate operators without the need of using and conditions
+# timezone.now() - datetime.timedelta(days=1) <= self.pub_date <= now
 
 # LOGICAL OPERATORS
 # and or not
