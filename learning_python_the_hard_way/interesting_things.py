@@ -19,3 +19,13 @@ script, first, second, third = argv
 # Opening files
 # r, w, a
 file = open('file_name', 'r')
+
+
+# Functions
+def print_two(*args):
+    arg1, arg2 = args
+
+
+# Modules
+import ex25_even_more_practice as ex25
+ex25.break_words("this is a sentence")
