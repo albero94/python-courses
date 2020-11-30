@@ -29,3 +29,7 @@ def print_two(*args):
 # Modules
 import ex25_even_more_practice as ex25
 ex25.break_words("this is a sentence")
+
+
+# Boolean
+1 or True   # returns 1, python likes returning operands
