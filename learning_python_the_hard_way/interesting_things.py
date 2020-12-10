@@ -33,3 +33,8 @@ ex25.break_words("this is a sentence")
 
 # Boolean
 1 or True   # returns 1, python likes returning operands
+
+# Conditionals
+# if, elif, else
+# elif execute in order
+
