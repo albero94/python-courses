@@ -28,7 +28,9 @@ def print_two(*args):
 
 # Modules
 import ex25_even_more_practice as ex25
+from ex25_even_more_practice import print_first_and_last
 ex25.break_words("this is a sentence")
+print_first_and_last("hello girl!")
 
 
 # Boolean
@@ -37,3 +39,13 @@ ex25.break_words("this is a sentence")
 # Conditionals
 # if, elif, else
 # elif execute in order
+
+
+# Dictionaries
+cities = {
+    "CA": "San Francisco",
+    "MI": "Detroit",
+}
+cities["OR"] = "Portland"
+cities.get("TX", "default value")
+# collections.OrderedDict
