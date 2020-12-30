@@ -1,0 +1,24 @@
+NOT FINISHED
+
+Really interesting section where he talks about his approach to solve problems.
+Top-down and bottom-up approach.
+
+TOP DOWN
+Starts by writing the story/solution in english.
+Get the nouns and verbs from the story.
+Combine them and group them and start developing relationships between them
+Write the possible class names, their methods, and inheritance tree
+Write this in code
+Small tests to try this out
+
+Good for starters, you go from abstract concepts to detail code
+Keep iterating over an over, reviewing the bigger picture every time you have
+learned something by getting detailed
+
+BOTTOM UP
+More useful for experienced people that already think in code about problems
+You have scattered ideas, but you are not sure how they combine
+You start by writing small pieces of code, unit tests, and start building up
+from there
+Once you wrote a few pieces you describe in english what they are really doing
+Keep iterating on this for a few times 
