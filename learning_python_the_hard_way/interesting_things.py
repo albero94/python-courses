@@ -49,3 +49,34 @@ cities = {
 cities["OR"] = "Portland"
 cities.get("TX", "default value")
 # collections.OrderedDict
+
+
+# Review getattr functionality
+
+
+# INHERITANCE
+class Child(Parent):
+    
+    def __init__(self):
+        super(Child, self).__init__()
+        pass
+
+# Inheritance vs composition
+"""
+In composition we import a module or use another class methods instead of inherit from it
+    1. Avoid multiple inheritances, it gets too complex. If you do so, get ready to navigate the class hierarchy to know 
+where things are coming from
+    2. Use composition to package code into modules that is used in many places
+    3. Use inheritance when there are clary related reusable pieces of code that fit under a single common concept
+""" 
+
+# Magic methods
+object.__dict__
+object.__mro__
+dir(object)
+
+# Comments
+"""
+When you write comments, describe why you are doing what you are doing. The code already says how, but why you did
+things the way you did is more important.
+"""
