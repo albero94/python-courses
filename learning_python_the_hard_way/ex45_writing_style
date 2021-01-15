@@ -1,0 +1,20 @@
+In this exercise he asks to write a game, I haven't done it but I go over his recommendations for style.
+He recommends the peep guide, but also makes his own suggestions.
+
+Function style
+    - Keep them small :) 
+
+Class style
+    - Don't put too much in your __init__, makes them harder to use
+    - Be consistent in function arguments order
+    - Try to avoid variables that come from global scope, it should be self-contained
+
+Code style
+    - Include vertical space in your code, makes it easier to read. Humans are used to it
+    - If you can't read out loud, it's probably hard to read
+    - Mimic styles of other people you like
+
+Good comments
+    - Code should be readable, but comments are still necessary
+    - Describe why you are doing things, the code is already saying how!
+    - Write docstrings for someone that would use your function
