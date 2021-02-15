@@ -1,0 +1,11 @@
+Writing tests is a way to automate a boring and tedious task
+It's also writing software about other software you have written, so it strengthens your brain by reviewing the 
+logic you used, looking for errors, paying attention to detail, and making you a better programmer
+
+Some guidelines
+- tests file go into tests and are name something_tests.py
+- Write test in a different file for each each module
+- write helper functions if you have repetitive code
+- do not get attach to your tests, somteitmes the best way to redesign something is to delete it and start over
+
+
